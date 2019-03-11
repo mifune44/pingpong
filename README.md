@@ -6,7 +6,7 @@
 
 ## Description
 
-_Webpage that returns user numbers back. "Ping" if it's divisible by three, "pong" if it's divisible by five, or "pingpong" if it's divisible by fifteen. _ 
+_Webpage that returns user numbers back. "Ping" if it's divisible by three, "pong" if it's divisible by five, or "pingpong" if it's divisible by fifteen._ 
 
 ## Setup/Installation Requirements
 
