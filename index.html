@@ -1,12 +1,45 @@
-<!DOCTYPE<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <title>The Man from Dry Land</title>
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/scripts.js"></script>
+    <title>Ping-Pong</title>
   </head>
   <body>
-    <h1>The sailing adventures of Joshua Landry</h1>
+    <div class="container">
+      <div class="well">
+        <h1>Ping-Pong</h1>
+      </div>
+    </div>
+    <img src=https://www.tabletennisdaily.com/forum/images/willferrelltt.jpeg alt="will ferrell playing table tennis" class="will">
+     <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <h3>Rules</h3>
+                <li>Numbers divisible by 3 will become <strong>"ping"</strong></li>
+                <li>Numbers divisible by 5 will become <strong>"pong"</strong></li>
+                <li>Numbers divisible by 3 and 5 will become <strong>"pingpong"</strong></li>
+              </ul>
+            </div>
+          <div class="col-md-6">
+      <form id="pingPongForm">
+        <div class="form-group">
+          <label for="number-input"><h3>Enter a number and let's play!</h3></label>
+          <input id="userInput" type="number" required="" >
+        </div>
+        <button id="button-submit" type="submit" class="btn">Hit it</button>
+      </form>
+          <h2 id = "result">
+            <ul>
+            </ul>
+         </h2>
+          </div>
+        </div>
+      </div>
+     </div>
   </body>
-  </head>
 </html>
